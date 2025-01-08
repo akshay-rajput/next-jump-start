@@ -50,7 +50,8 @@ export default function Page() {
 			>
 				shadcn/ui docs
 			</a>
-			.
+			. Alternatively you can programmatically add {`"dark"`} class to the body
+			for toggling dark mode for components.
 		</span>,
 		<span className='' key={'fonts'}>
 			Fonts: Uses 2 fonts from Google Fonts by default. You can change them in
