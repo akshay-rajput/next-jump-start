@@ -19,3 +19,11 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* you can remove below classes and add your own for fonts,colors, etc  */
+.font-open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+.font-gochi-hand  {
+  font-family: 'Gochi Hand', cursive;
+}
