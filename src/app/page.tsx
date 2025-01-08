@@ -28,7 +28,7 @@ export default function Home() {
       link: "https://typicode.github.io/husky/",
       title: "🛠️ Pre-Commit Hooks",
       description:
-        "Husky pre-commit hook for formatting staged files using Prettier.",
+        "Husky pre-commit hook for formatting & type-checking staged files using tsc and Prettier.",
     },
   ];
 
