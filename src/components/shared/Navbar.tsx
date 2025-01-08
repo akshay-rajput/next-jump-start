@@ -28,7 +28,10 @@ export default function Navbar() {
 						<Link href='/about'>about</Link>
 					</li>
 					<li className='text-stone-400 hover:text-amber-400'>
-						<Link href='https://github.com' target='_blank'>
+						<Link
+							href='https://github.com/akshay-rajput/next-jump-start'
+							target='_blank'
+						>
 							github
 						</Link>
 					</li>
