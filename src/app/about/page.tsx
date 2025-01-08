@@ -64,26 +64,42 @@ export default function Page() {
 
 	const recommendations: Array<React.ReactNode> = [
 		<span key='zustand'>
-			<a href='' target='_blank' className=''>
+			<a
+				href='https://zustand-demo.pmnd.rs/'
+				target='_blank'
+				className='text-amber-600 hover:text-amber-400'
+			>
 				Zustand 🐻
 			</a>{' '}
 			- keeps your state management simple, minimal, and scalable.
 		</span>,
 
 		<span key='react-query'>
-			<a href='' target='_blank' className=''>
+			<a
+				href='https://tanstack.com/query/v3/'
+				target='_blank'
+				className='text-amber-600 hover:text-amber-400'
+			>
 				React Query 🧿
 			</a>{' '}
 			- for all your data fetching needs.
 		</span>,
 		<span key='radix'>
-			<a href='' target='_blank' className=''>
+			<a
+				href='https://www.radix-ui.com/'
+				target='_blank'
+				className='text-amber-600 hover:text-amber-400'
+			>
 				Radix UI 🌈
 			</a>{' '}
 			- accessible, unstyled, and customizable component library.
 		</span>,
 		<span key='auto-animate'>
-			<a href='' target='_blank' className=''>
+			<a
+				href='https://auto-animate.formkit.com/'
+				target='_blank'
+				className='text-amber-600 hover:text-amber-400'
+			>
 				AutoAnimate ✨
 			</a>{' '}
 			- for simple animations that enhance the user experience.
@@ -117,7 +133,7 @@ export default function Page() {
 					))}
 				</ul>
 
-				<p className='text-sm mb-4 '>
+				<p className='text-sm mb-4 pl-2'>
 					Above tools aren&apos;t included to keep the template light. These are
 					just recommendations, you can add them if it suits your needs.
 				</p>
